@@ -19,7 +19,7 @@ def detect_and_draw_box(file_path, filename):
     font_scale = 0.5
     font= cv2.FONT_HERSHEY_SIMPLEX
     for classInd, conf, boxes in zip(classIndex.flatten(), confidence.flatten(), bbox):
-        if conf> 0.6:
+        if conf> 0.5:
             cv2.rectangle(img, boxes, (0, 255, 0), 2)
 
             label = f'{classLabels[classInd-1]}'
