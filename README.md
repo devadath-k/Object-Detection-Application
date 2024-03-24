@@ -43,6 +43,7 @@ python -m venv venv
 - Install Dependencies
 
 ```
+cd backend-server/
 pip install -r requirements.txt
 ```
 
@@ -50,7 +51,6 @@ pip install -r requirements.txt
 - Run Server
 
 ```
-cd backend-server/
 python server.py
 ```
 
