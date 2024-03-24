@@ -1,5 +1,8 @@
 # Object Detection App (IISC CiSTUP Submission)
 
+## Demo video link 
+  [Object detection app](https://drive.google.com/file/d/1t_KiW2vDfAMG5UKdLbQnxPa7CZSTn524/view?usp=sharing)
+
 ## Stack
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
